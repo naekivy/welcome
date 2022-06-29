@@ -157,13 +157,19 @@ $ export OREKITDATA=orekit-data-master
     ```	
 * To check if the variable has been created : 
     ```
-    $ echo <VARIABLE_NAME>
+    $ printenv
     ```	
 
  * To connect to a server using ssh protocol : 
     ```
     $ ssh username@server
     ```			
+    
+ * To execute test : 
+    ```
+    $ pytest -s
+    ```			
+    
  * Some allias  :
     ```
     $ alias sms2='ssh pouzin@192.168.1.23'
@@ -185,5 +191,7 @@ $ export OREKITDATA=orekit-data-master
     $ alias gcm='git checkout master'
 
     ```		
+   
+    
 
 
