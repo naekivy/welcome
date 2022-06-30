@@ -170,6 +170,11 @@ $ export OREKITDATA=orekit-data-master
     $ pytest -s
     ```			
     
+ * To thwart Anteo's plans :
+    ```
+    $ xrandr -o normal
+    ```			
+    
  * Some allias  :
     ```
     $ alias sms2='ssh pouzin@192.168.1.23'
